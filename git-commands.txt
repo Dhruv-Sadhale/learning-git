@@ -1,0 +1,5 @@
+remember the wedding stage, backstage(stash) and photo(commit) analogy beautifully explained 
+git init
+git add .
+rm -rf <file_name>
+git status
