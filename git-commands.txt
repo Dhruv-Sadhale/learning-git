@@ -4,3 +4,6 @@ git add .
 rm -rf <file_name>
 git status
 git restore --staged <file_name>
+git reset <commit_hash>
+git stash
+git stash pop
