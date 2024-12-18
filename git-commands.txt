@@ -3,3 +3,4 @@ git init
 git add .
 rm -rf <file_name>
 git status
+git restore --staged <file_name>
