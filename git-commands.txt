@@ -12,7 +12,16 @@ git remote add origin <remote_repo_link>
 #used to find out the remote origin url
 git remote -v 
 
+#to be used at first push command for the corresponding repository 9remote)
 git push origin master 
 #or
 git push origin main
+
+git remote set-url origin <>
+
+#whenever you face issues connecting to the remote github repo, choose the ssh option use the below command to generate the ssh key
+ssh-keygen -t ed25519 -C "dhruv.sadhale@gmail.com"
+#find the ssh key using the command given below and then paste it in the profile settings-> SSH and GPG keys section
+cat ~/.ssh/id_ed25519.pub
+
 
