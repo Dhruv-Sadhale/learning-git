@@ -7,3 +7,12 @@ git restore --staged <file_name>
 git reset <commit_hash>
 git stash
 git stash pop
+git remote add origin <remote_repo_link>
+
+#used to find out the remote origin url
+git remote -v 
+
+git push origin master 
+#or
+git push origin main
+
